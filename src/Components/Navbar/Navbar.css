@@ -8,8 +8,19 @@
     background: white;
 }
 
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-left{
+ font-size: 20px;
+ font-weight: 500;
+}
+
 .nav-logo{
-    width: 200px;
+    width: 80px;
+    height: 60px;
 }
 
 .nav-profile{

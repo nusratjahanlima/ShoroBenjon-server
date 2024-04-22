@@ -48,7 +48,7 @@ import cross_icon from '../../assets/cross_icon.png'
                 <p>{product.name}</p>
                 <p>${product.old_price}</p>
                 <p>${product.new_price}</p>
-                <p>${product.category}</p>
+                <p>{product.category}</p>
                 <img onClick={()=>{remove_product(product.id)}} className='listproduct-remove-icon' src={cross_icon} alt="" />
             </div>
             <hr />
