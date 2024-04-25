@@ -1,7 +1,7 @@
 import './Sidebar.css'
 import {Link} from 'react-router-dom'
-import add_product_icon from '../../assets/Product_Cart.svg'
-import list_product_icon from '../../assets/Product_list_icon.svg'
+import add_product_icon from '../../assets/add_product_icon.png'
+import list_product_icon from '../../assets/list_product_icon.png'
 
 const Sidebar = () => {
   return (
