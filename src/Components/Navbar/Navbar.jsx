@@ -1,6 +1,6 @@
 import './Navbar.css'
 import navlogo from '../../assets/shorobenjon.png'
-import admin_profile from '../../assets/admin_profile.jpg'
+import admin_profile from '../../assets/admin_profile.png'
 
 const Navbar = () => {
   return (

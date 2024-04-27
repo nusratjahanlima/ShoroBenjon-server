@@ -52,6 +52,9 @@ const AddProduct = () => {
     }
     }
 
+    
+    
+
   return (
     <div className='add-product'>
         <div className="addproduct-itemfield">
@@ -84,7 +87,9 @@ const AddProduct = () => {
             </label>
             <input onChange={imageHandler} type="file" name='image' id='file-input' hidden />
         </div>
+        <div className='add-product-btn'>
         <button onClick={()=>{Add_Product()}} className='addproduct-btn'>Add</button>
+        </div>
     </div>
   )
 }

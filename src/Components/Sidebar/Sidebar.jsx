@@ -2,6 +2,8 @@ import './Sidebar.css'
 import {Link} from 'react-router-dom'
 import add_product_icon from '../../assets/add_product_icon.png'
 import list_product_icon from '../../assets/list_product_icon.png'
+import my_profile from '../../assets/my-profile.png'
+import logout from '../../assets/logout.png'
 
 const Sidebar = () => {
   return (
@@ -19,6 +21,22 @@ const Sidebar = () => {
                 <p>Product List</p>
             </div>
         </Link>
+
+        <div className="item-last">
+        <Link to={'/adminprofile'} style={{textDecoration:"none"}}>
+            <div className="my-profile">
+                <img src={my_profile} alt="" />
+                <p>My profile</p>
+            </div>
+        </Link>
+
+        <Link to={'/logout'} style={{textDecoration:"none"}}>
+            <div className="admin-logout">
+                <img src={logout} alt="" />
+                <p>Logout</p>
+            </div>
+        </Link>
+        </div>
     </div>
   )
 }

@@ -1,8 +1,11 @@
+/* eslint-disable no-undef */
 import { useEffect, useState } from 'react'
 import './ListProduct.css'
 import cross_icon from '../../assets/cross_icon.png'
 
   const ListProduct = () => {
+
+
 
     const [allproducts,setAllProducts] = useState([]);
 
@@ -16,6 +19,11 @@ import cross_icon from '../../assets/cross_icon.png'
       fetchInfo();
     },[])
 
+
+
+
+
+
     const remove_product = async (id) =>{
       await fetch('http://localhost:4000/removeproduct',{
         method:'POST',
@@ -27,6 +35,8 @@ import cross_icon from '../../assets/cross_icon.png'
       })
       await fetchInfo();
     }
+
+
 
     return (
       <div className='list-product'>
