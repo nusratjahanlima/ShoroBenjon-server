@@ -26,6 +26,12 @@
     font-weight: 500;
 }
 
+.listproduct-allproducts hr{
+    height: 1px;
+    background: #908c8c;
+    border: 0;
+}
+
 .listproduct-product-icon{
     height: 80px;
 }

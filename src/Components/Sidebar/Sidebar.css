@@ -12,12 +12,12 @@
 
 .sidebar-item{
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0px 20px;
+    margin-right: 60px;
     padding: 5px 10px;
     border-radius: 6px;
-    /* border: 2px solid #edc6b7; */
+    width: 200px;
     gap: 20px;
     cursor: pointer;
 }
@@ -27,14 +27,17 @@
     height: 30px;
 }
 
-.product-description{
+.item-first{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .item-last{
+    display: flex;
+    flex-direction: column;
     margin-top: auto; 
+    gap: 20px;
 }
 
 .my-profile{

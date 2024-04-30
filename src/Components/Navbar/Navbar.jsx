@@ -14,6 +14,9 @@ const Navbar = () => {
 
       <div className="navbar-right">
         <img src={admin_profile} className='nav-profile' alt="" />
+        <div className="login-btn">
+        <button>Login</button>
+        </div>
       </div>
     </div>
   )

@@ -6,6 +6,17 @@
     padding: 20px;
 }
 
+.productDescription h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.productDescription hr{
+    height: 2px;
+    background: #908c8c;
+    border: 0;
+}
+
 .product-description-main{
     display: flex;
     flex-direction: column;
@@ -14,20 +25,29 @@
     width: 900px;
     height: 300px;
     margin-top: 40px;
-    /* border: 2px solid red; */
+    gap: 15px;
 }
 
 .product-description-main input{
     width: 900px;
     height: 30px;
+    border: 2px solid #7b7b7b8b;
     outline-color: rgb(203, 91, 153);
-    /* border: 2px solid red; */
 }
 
-.product-description-special input{
+.product-description-special {
+    display: flex;
+    flex-direction: column;
     width: 900px;
-    height: 140px;
+    border: 2px solid #7b7b7b8b;
     outline-color: rgb(203, 91, 153);
+}
+
+.product-description-special textarea {
+    height: 130px;
+}
+
+.productDescription hr{
 }
 
 .product-description-btn {
@@ -45,4 +65,5 @@
     color: white;
     font-size: 18px;
     font-weight: 400;
+    border-radius: 5px;
 }

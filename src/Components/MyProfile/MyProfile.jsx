@@ -137,6 +137,30 @@ const MyProfile = () => {
                             </div>
                         </div>
 
+                        <div className="admin-activities-details-sub">
+                            <p>You added a role Sales Lead</p>
+                            <div className="date-time">
+                                <p>19/02/2023</p>
+                                <p>10:40:55 AM</p>
+                            </div>
+                        </div>
+
+                        <div className="admin-activities-details-sub">
+                            <p>You added a role Sales Lead</p>
+                            <div className="date-time">
+                                <p>19/02/2023</p>
+                                <p>10:40:55 AM</p>
+                            </div>
+                        </div>
+
+                        <div className="admin-activities-details-sub">
+                            <p>You added a role Sales Lead</p>
+                            <div className="date-time">
+                                <p>19/02/2023</p>
+                                <p>10:40:55 AM</p>
+                            </div>
+                        </div>
+
                        
                        
                     </div>

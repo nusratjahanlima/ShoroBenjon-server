@@ -40,6 +40,26 @@
     margin-right: 40px;
 }
 
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-right img{
+    margin-left: 30px;
+}
+
+.login-btn button{
+    width: 70px;
+    height: 30px;
+    margin-right: 50px;
+    background-color: #ce7f7f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
 @media(max-width:800px){
     .navbar{
         padding: 15px 30px;
